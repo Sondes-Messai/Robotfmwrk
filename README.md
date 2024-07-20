@@ -27,3 +27,5 @@ Pour exécuter les tests, naviguez jusqu’au répertoire du projet et exécutez
 robot tests/
 
 Cela exécutera tous les tests dans le répertoire tests/.
+<br>
+Documentation:https://robotframework.org/
