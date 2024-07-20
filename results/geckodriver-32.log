@@ -1,0 +1,17 @@
+1720465078841	geckodriver	INFO	Listening on 127.0.0.1:58959
+1720465081922	mozrunner::runner	INFO	Running command: "C:\\Users\\sonde\\.cache\\selenium\\firefox\\win64\\127.0.2\\firefox.exe" "--marionette" "--remote-debuggin ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sonde\\AppData\\Local\\Temp\\rust_mozprofileLA7Yq5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1720465082166	Marionette	INFO	Marionette enabled
+1720465082284	Marionette	INFO	Listening on port 58969
+WebDriver BiDi listening on ws://127.0.0.1:58960
+Read port: 58969
+1720465082466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58960/devtools/browser/a6b76b1d-6047-4801-97d7-091b7859e398
+1720465112211	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1720467759884	Marionette	INFO	Stopped listening on port 58969
+Dynamically enable window occlusion 1

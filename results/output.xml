@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.2 on win32)" generated="2024-07-09T13:44:28.709545" rpa="false" schemaversion="5">
+<suite id="s1" name="Robotfmwrk" source="C:\Users\sonde\Desktop\Robotfmwrk">
+<suite id="s1-s1" name="Ressource" source="C:\Users\sonde\Desktop\Robotfmwrk\Ressource">
+<suite id="s1-s1-s1" name="Test7" source="C:\Users\sonde\Desktop\Robotfmwrk\Ressource\test7.robot">
+<test id="s1-s1-s1-t1" name="Test4:" line="10">
+<kw name="Go to url">
+<msg time="2024-07-09T13:44:28.992121" level="FAIL">No keyword with name 'Go to url' found. Did you mean:
+    SeleniumLibrary.Go To</msg>
+<arg>https://naveenautomationlabs.com/opencart/index.php?route=product/product&amp;path=25_28&amp;product_id=33</arg>
+<arg>firefox</arg>
+<status status="FAIL" start="2024-07-09T13:44:28.984058" elapsed="0.008811">No keyword with name 'Go to url' found. Did you mean:
+    SeleniumLibrary.Go To</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="button-cart"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-09T13:44:28.993404" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="cart"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-09T13:44:28.993404" elapsed="0.000000"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<arg>div.alert-success</arg>
+<arg>You have added Samsung SyncMaster 941BW to your shopping cart!</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-07-09T13:44:28.993404" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-09T13:44:28.984058" elapsed="0.009346">No keyword with name 'Go to url' found. Did you mean:
+    SeleniumLibrary.Go To</status>
+</test>
+<status status="FAIL" start="2024-07-09T13:44:28.734586" elapsed="0.261343"/>
+</suite>
+<status status="FAIL" start="2024-07-09T13:44:28.734586" elapsed="0.261343"/>
+</suite>
+<status status="FAIL" start="2024-07-09T13:44:28.715097" elapsed="0.280832"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Robotfmwrk">Robotfmwrk</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Ressource">Robotfmwrk.Ressource</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Test7">Robotfmwrk.Ressource.Test7</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-07-09T13:44:28.984058" level="ERROR">Error in file 'C:\Users\sonde\Desktop\Robotfmwrk\Ressource\test7.robot' on line 6: Resource file '..RessourceKeyword.robot' does not exist.</msg>
+</errors>
+</robot>

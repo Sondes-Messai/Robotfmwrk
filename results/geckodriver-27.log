@@ -1,0 +1,18 @@
+1720463883507	geckodriver	INFO	Listening on 127.0.0.1:59557
+1720463886586	mozrunner::runner	INFO	Running command: "C:\\Users\\sonde\\.cache\\selenium\\firefox\\win64\\127.0.2\\firefox.exe" "--marionette" "--remote-debuggin ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sonde\\AppData\\Local\\Temp\\rust_mozprofile8Qq6Mo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1720463887019	Marionette	INFO	Marionette enabled
+1720463887141	Marionette	INFO	Listening on port 59565
+WebDriver BiDi listening on ws://127.0.0.1:59558
+Read port: 59565
+1720463887328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+DevTools listening on ws://127.0.0.1:59558/devtools/browser/97d63d7e-ee77-4588-8038-f771b6a28896
+1720463889038	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1720463892843	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1720463918308	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1720463978934	Marionette	INFO	Stopped listening on port 59565
+Dynamically enable window occlusion 1

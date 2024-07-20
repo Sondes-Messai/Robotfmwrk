@@ -1,0 +1,20 @@
+1720191031234	geckodriver	INFO	Listening on 127.0.0.1:64096
+1720191034307	mozrunner::runner	INFO	Running command: "C:\\Users\\sonde\\.cache\\selenium\\firefox\\win64\\127.0.2\\firefox.exe" "--marionette" "--remote-debuggin ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sonde\\AppData\\Local\\Temp\\rust_mozprofileyLe8AV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1720191034580	Marionette	INFO	Marionette enabled
+1720191034698	Marionette	INFO	Listening on port 64105
+WebDriver BiDi listening on ws://127.0.0.1:64097
+Read port: 64105
+1720191034858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64097/devtools/browser/2d3d607d-eeb2-469f-a2fa-16266590e204
+1720191066269	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://naveenautomationlabs.com/opencart/catalog/view/javascript/jquery/jquery-3.7.0.min.js, line 2: Script terminated by timeout at:
+ce.Event@https://naveenautomationlabs.com/opencart/catalog/view/javascript/jquery/jquery-3.7.0.min.js:2:41567
+fix@https://naveenautomationlabs.com/opencart/catalog/view/javascript/jquery/jquery-3.7.0.min.js:2:40983
+o@https://naveenautomationlabs.com/opencart/catalog/view/javascript/jquery/jquery-3.7.0.min.js:2:43221
+
+1720260891769	Marionette	INFO	Stopped listening on port 64105
+Dynamically enable window occlusion 1

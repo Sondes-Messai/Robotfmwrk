@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.2 on win32)" generated="2024-07-05T14:20:37.626360" rpa="false" schemaversion="5">
+<suite id="s1" name="TestSite" source="C:\Users\sonde\Desktop\Robotfmwrk\Test\TestSite.robot">
+<test id="s1-t1" name="Test1:Go to home page" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-05T14:20:37.799464" level="INFO">Opening browser 'chrome' to base url 'https://naveenautomationlabs.com/opencart/index.php?route=common/home'.</msg>
+<msg time="2024-07-05T14:20:38.097516" level="WARN">The chromedriver version (114.0.5735.90) detected in PATH at C:\Users\sonde\.selenuim\chromedriver.exe might not be compatible with the detected chrome version (126.0.6478.127); currently, chromedriver 126.0.6478.126 is recommended for chrome 126.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg time="2024-07-05T14:20:41.337772" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2024-07-05T14:20:41.338237" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 126.0.6478.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0031A813+48355]
+	(No symbol) [0x002AC4B1]
+	(No symbol) [0x001B5358]
+	(No symbol) [0x001D61AC]
+	(No symbol) [0x001D1EF3]
+	(No symbol) [0x001D0579]
+	(No symbol) [0x00200C55]
+	(No symbol) [0x0020093C]
+	(No symbol) [0x001FA536]
+	(No symbol) [0x001D82DC]
+	(No symbol) [0x001D93DD]
+	GetHandleVerifier [0x0057AABD+2539405]
+	GetHandleVerifier [0x005BA78F+2800735]
+	GetHandleVerifier [0x005B456C+2775612]
+	GetHandleVerifier [0x003A51E0+616112]
+	(No symbol) [0x002B5F8C]
+	(No symbol) [0x002B2328]
+	(No symbol) [0x002B240B]
+	(No symbol) [0x002A4FF7]
+	BaseThreadInitThunk [0x75547BA9+25]
+	RtlInitializeExceptionChain [0x7793C10B+107]
+	RtlClearBits [0x7793C08F+191]
+</msg>
+<arg>https://naveenautomationlabs.com/opencart/index.php?route=common/home</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2024-07-05T14:20:37.799464" elapsed="3.538773">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 126.0.6478.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0031A813+48355]
+	(No symbol) [0x002AC4B1]
+	(No symbol) [0x001B5358]
+	(No symbol) [0x001D61AC]
+	(No symbol) [0x001D1EF3]
+	(No symbol) [0x001D0579]
+	(No symbol) [0x00200C55]
+	(No symbol) [0x0020093C]
+	(No symbol) [0x001FA536]
+	(No symbol) [0x001D82DC]
+	(No symbol) [0x001D93DD]
+	GetHandleVerifier [0x0057AABD+2539405]
+	GetHandleVerifier [0x005BA78F+2800735]
+	GetHandleVerifier [0x005B456C+2775612]
+	GetHandleVerifier [0x003A51E0+616112]
+	(No symbol) [0x002B5F8C]
+	(No symbol) [0x002B2328]
+	(No symbol) [0x002B240B]
+	(No symbol) [0x002A4FF7]
+	BaseThreadInitThunk [0x75547BA9+25]
+	RtlInitializeExceptionChain [0x7793C10B+107]
+	RtlClearBits [0x7793C08F+191]
+</status>
+</kw>
+<status status="FAIL" start="2024-07-05T14:20:37.799464" elapsed="3.538773">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 126.0.6478.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0031A813+48355]
+	(No symbol) [0x002AC4B1]
+	(No symbol) [0x001B5358]
+	(No symbol) [0x001D61AC]
+	(No symbol) [0x001D1EF3]
+	(No symbol) [0x001D0579]
+	(No symbol) [0x00200C55]
+	(No symbol) [0x0020093C]
+	(No symbol) [0x001FA536]
+	(No symbol) [0x001D82DC]
+	(No symbol) [0x001D93DD]
+	GetHandleVerifier [0x0057AABD+2539405]
+	GetHandleVerifier [0x005BA78F+2800735]
+	GetHandleVerifier [0x005B456C+2775612]
+	GetHandleVerifier [0x003A51E0+616112]
+	(No symbol) [0x002B5F8C]
+	(No symbol) [0x002B2328]
+	(No symbol) [0x002B240B]
+	(No symbol) [0x002A4FF7]
+	BaseThreadInitThunk [0x75547BA9+25]
+	RtlInitializeExceptionChain [0x7793C10B+107]
+	RtlClearBits [0x7793C08F+191]
+</status>
+</test>
+<status status="FAIL" start="2024-07-05T14:20:37.626360" elapsed="3.711877"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TestSite">TestSite</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-07-05T14:20:38.097516" level="WARN">The chromedriver version (114.0.5735.90) detected in PATH at C:\Users\sonde\.selenuim\chromedriver.exe might not be compatible with the detected chrome version (126.0.6478.127); currently, chromedriver 126.0.6478.126 is recommended for chrome 126.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
